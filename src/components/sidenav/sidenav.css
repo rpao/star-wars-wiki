@@ -1,0 +1,17 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color: rgb(129, 126, 126);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px 0;
+}
+
+.left {
+    left: 0; 
+}
+
+.right {
+    right: 0;    
+}
