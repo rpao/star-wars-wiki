@@ -1,8 +1,8 @@
 import SentimentVeryDissatisfiedOutlinedIcon from '@material-ui/icons/SentimentVeryDissatisfiedOutlined';
-import { PageErrorModel } from "../../model/page-error-model";
+import { ErrorModel } from '../../shared/model/error-model';
 import './access-page-error.css';
 
-const PageError = (props: PageErrorModel) => {
+export const PageError = (props: ErrorModel) => {
 
     const {errorCode, errorMessage} = props;
 
@@ -18,5 +18,3 @@ const PageError = (props: PageErrorModel) => {
         </div>
     );
 }
-
-export default PageError

@@ -1,8 +1,8 @@
-import { SideNavModel } from '../../model/sidenav-model';
+import { SideNavModel } from '../../shared/model/sidenav-model';
 import { classNames } from '../../utils/class-names';
 import './sidenav.css'
 
-const SideNav = (props: SideNavModel) => {
+export const SideNav = (props: SideNavModel) => {
     const {left, children} = props;
     const classes = {
         'sidenav': true,
@@ -16,5 +16,3 @@ const SideNav = (props: SideNavModel) => {
         </div>
     );
 }
-
-export default SideNav;

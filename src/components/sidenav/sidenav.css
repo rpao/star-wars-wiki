@@ -2,10 +2,17 @@
     height: 100%;
     width: 200px;
     position: fixed;
-    background-color: rgb(129, 126, 126);
+    background-color: #3d5d78;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-button {
+    color: #90cfea !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: bold !important;
 }
 
 .left {

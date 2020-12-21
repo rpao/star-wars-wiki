@@ -1,4 +1,4 @@
-export interface PageErrorModel {
+export interface ErrorModel {
     errorCode: number;
     errorMessage: string;
 }

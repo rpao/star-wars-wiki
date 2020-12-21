@@ -3,3 +3,7 @@
     flex-direction: column;
     width: 100%;
 }
+
+.active-option {
+    background-color: #134f6a !important;
+}

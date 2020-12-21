@@ -1,0 +1,1 @@
+export type SWAPIEndpoint = 'films' | 'people' | 'planets' | 'species' | 'starships' | 'vehicles';
